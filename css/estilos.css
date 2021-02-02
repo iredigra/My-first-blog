@@ -1,0 +1,182 @@
+html{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 235, 235);
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+/* Header */
+
+.header_image{
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    border-top: 50%;
+}
+
+header{
+    padding: 15px;
+    background-image: url(../css/images/descarga.png);
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+header p {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+
+
+#heading{
+    background-color: white;
+    border: 1px;
+    border-radius: 20px;
+    padding: 5px;
+    
+
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color:  white;
+}
+
+h2{
+    text-align: center;
+    color: teal;
+}
+
+span{
+    border: 3px rgb(9, 148, 141) dashed;
+    padding: 1%;
+}
+
+p{
+    text-align: center;
+    padding: 2%;
+}
+
+hr{
+    height: 1px;
+}
+
+.quote{
+    font-style: italic;
+    text-align: right;
+}
+
+/* End header */
+
+/* My skills section */
+
+.section{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color:  white;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+    align-self: auto;
+}
+
+progress{
+    width: 65%;
+    padding: 15px;
+}
+
+/* End My skills section */
+
+/* Schedule */
+
+.tabla{
+    border: 1px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+/* End Schedule */
+
+/* Get in touch */
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none; 
+}
+
+.submit{
+    background-color: rgba(0, 128, 128, 0.61);
+    color: white;
+    width: 30%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: teal;
+}
+
+
+/* End get in touch */
+
+
+/* Follow me */
+
+.social_media{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color:  white;
+}
+
+.rrss{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img:hover{
+    opacity: 0.7;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 2%;
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
+/* End footer*/
